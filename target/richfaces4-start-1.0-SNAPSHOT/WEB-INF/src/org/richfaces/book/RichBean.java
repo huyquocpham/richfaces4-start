@@ -1,3 +1,4 @@
+/* This is Huy testing */
 package org.richfaces.book;
 
 import java.io.Serializable;

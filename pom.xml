@@ -54,7 +54,17 @@
                     </webResources>
                 </configuration>
             </plugin>
-        </plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>     
+                <artifactId>tomcat-maven-plugin</artifactId>
+                <configuration>
+                    <url>http://CMH2201.civilisations.ca:8080/manager/html</url>
+                    <server>mytomcat</server>
+                    <path>/richfaces4-start-${project.version}</path>
+                </configuration>
+            </plugin>
+                      
+        </plugins> 
     </build>
 
     <profiles>
